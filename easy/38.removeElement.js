@@ -7,6 +7,10 @@
    Notes:
    - If all the elements match, it should return an empty array.
    - If an empty array is passed in, it should return an empty array.
+
+   Example:
+    var output = removeElement([1, 2, 3, 2, 1], 2);
+    console.log(output); // --> [1, 3, 1]
 */
 
 function removeElement(array, discarder) {

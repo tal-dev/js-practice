@@ -4,7 +4,7 @@
 
    "double" should return a new array where each value in the original array has been doubled, without changing the original array.
 
-   Exammple:
+   Example:
    `double([1,2,3]) // [2, 4, 6]`
 */
 

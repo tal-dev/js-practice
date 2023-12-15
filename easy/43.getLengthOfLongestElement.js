@@ -6,6 +6,10 @@
 
    Notes:
    - It should return 0 if the array is empty.
+
+   Example:
+    var output = getLengthOfLongestElement(['one', 'two', 'three']);
+    console.log(output); // --> 5
 */
 
 function getLengthOfLongestElement(arr) {

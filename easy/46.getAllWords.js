@@ -6,6 +6,10 @@
 
    Notes:
    - If given an empty string, it should return an empty array.
+
+   Example:
+    var output = getAllWords('Radagast the Brown');
+    console.log(output); // --> ['Radagast', 'the', 'Brown']
 */
 
 function getAllWords(str) {

@@ -6,6 +6,10 @@
 
    Notes:
    - If given an empty string, it should return an empty array.
+
+   Example:
+    var output = getAllLetters('Radagast');
+    console.log(output); // --> ['R', 'a', 'd', 'a', 'g', 'a', 's', 't']
 */
 
 
