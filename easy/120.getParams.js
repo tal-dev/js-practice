@@ -4,9 +4,9 @@
    Given a URL string with query parameters, "getParams" converts it into an object where the query parameters are key-value pairs.
 
    Example:
-   var url = "http://learn.seytech.co/?age=10&loc=seattle&type=bootcamp";
+   var url = "https://pos.toasttab.com/request-demo?plan=essentials&type=paid";
    var output = getParams(url);
-   console.log(output); // --> { age: 10, loc: 'seattle', type: 'bootcamp' }
+   console.log(output); // --> { plan: essentials, type: 'paid' }
 */
 
 function getParams(url) {

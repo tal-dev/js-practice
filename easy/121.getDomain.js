@@ -4,9 +4,9 @@
    Given a URL string, "getDomain" extracts parts of the URL and returns them as an object.
 
    Example:
-   var url = "https://learn.seytech.co";
+   var url = "https://apply.ycombinator.com/";
    var output = getDomain(url);
-   console.log(output); // --> { type: "https", domain: 'seytech', subDomain: 'learn' }
+   console.log(output); // --> { type: "https", domain: 'ycombinator', subDomain: 'apply' }
 */
 
 function getDomain(url) {

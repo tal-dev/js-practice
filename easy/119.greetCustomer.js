@@ -4,9 +4,9 @@
    Given an object representing a customer with a "name" and "lastName" property, "greetCustomer" returns a greeting message in the format: "Welcome [name] [lastName]".
 
    Example:
-   var obj = {name: "Seytech", lastName: "Co"};
+   var obj = {name: "geeknetwork", lastName: "llc"};
    var output = greetCustomer(obj);
-   console.log(output); // --> "Welcome Seytech Co"
+   console.log(output); // --> "Welcome geeknetwork llc"
 */
 
 function greetCustomer(obj) {
